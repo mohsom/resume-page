@@ -14,6 +14,16 @@ module.exports = function (grunt) {
                 }
             }
         },
+        uglify: {
+            options: {
+                mangle: false
+            },
+            my_target: {
+                files: {
+                    'build/js/script.js': ['js/script.js']
+                }
+            }
+        },
         copy: {
             main: {
                 files: [
@@ -132,10 +142,11 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-clean');
     grunt.loadNpmTasks('grunt-contrib-sass');
     grunt.loadNpmTasks('grunt-contrib-connect');
+    grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-scss-lint');
     grunt.loadNpmTasks('grunt-html-validation');
     grunt.loadNpmTasks('grunt-contrib-copy');
-    grunt.registerTask('build', ['clean:build', 'sass', 'cssmin', 'htmlmin', 'imagemin','copy']);
+    grunt.registerTask('build', ['clean:build', 'sass', 'cssmin', 'htmlmin', 'imagemin','copy','uglify']);
     grunt.registerTask('serve', ['sass', 'connect', 'watch']);
     grunt.registerTask('valid', ['validation','scsslint']);
 };
