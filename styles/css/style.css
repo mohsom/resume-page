@@ -16,7 +16,8 @@
     margin-left: 210px; } }
 @media (max-width: 999px) {
   .main-slider {
-    background: url("../../img/main-sl.png"); }
+    background: url("../../img/main-sl.png");
+    padding-bottom: 25px; }
     .main-slider .mn-sl-text {
       display: block; }
       .main-slider .mn-sl-text .mn-sl-title {
