@@ -6,7 +6,7 @@
   "license": "MIT",
   "devDependencies": {
     "normalize.css": "latest",
-    "reset-scss":"latest",
+    "reset-css":"latest",
     "fontawesome":"latest",
     "bootstrap":"latest",
     "jquery":"latest"
