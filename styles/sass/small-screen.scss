@@ -33,7 +33,8 @@
       text-align: center;
       height: 50px;
       font-size: 20px;
-      padding: 10px;
+      padding: 20px;
+      visibility: hidden;
     }
     .menu-item:hover{
       background-color: $green;
@@ -42,6 +43,9 @@
   }
   .visible{
     height: 350px;
+    .menu-item{
+      visibility: visible;
+    }
   }
   .menu-item-humb{
     display: inline-block;
