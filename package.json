@@ -6,16 +6,16 @@
     "bower": "latest",
     "grunt": "latest",
     "grunt-contrib-clean": "latest",
-    "grunt-contrib-cssmin": "latest",
+    "grunt-contrib-connect": "^0.10.1",
     "grunt-contrib-copy": "latest",
+    "grunt-contrib-cssmin": "latest",
+    "grunt-contrib-htmlmin": "latest",
     "grunt-contrib-imagemin": "latest",
     "grunt-contrib-sass": "latest",
     "grunt-contrib-uglify": "latest",
     "grunt-contrib-watch": "latest",
     "grunt-html-validation": "latest",
-    "grunt-scss-lint": "latest",
-    "grunt-contrib-connect":"latest",
-    "grunt-contrib-htmlmin":"latest"
+    "grunt-scss-lint": "latest"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
