@@ -67,16 +67,22 @@ body {
       .menu-items {
         .menu-item {
           cursor: pointer;
-          height: 100%;
           color: #ffffff;
           text-transform: uppercase;
           font-size: 15px;
         }
         .menu-item:hover {
-          @media (min-width: 1000px) {
+          @media (min-width: 1445px) {
             color: $green;
           }
         }
+      }
+      .menu-item-humb{
+        color: #ffffff;
+        float: right;
+        margin-right: 30px;
+        margin-top: -40px;
+        cursor: pointer;
       }
     }
   }
