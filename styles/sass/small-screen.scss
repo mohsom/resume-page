@@ -1,6 +1,12 @@
 @import '_var';
 @media (max-width: 999px) {
-  .main-slider{
-
+  .main-slider {
+    background: url("../../img/main-sl.png");
+    .mn-sl-text {
+      display: block;
+      .mn-sl-title {
+        max-width: 100%;
+      }
+    }
   }
 }

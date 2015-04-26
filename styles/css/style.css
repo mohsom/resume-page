@@ -1,7 +1,17 @@
 @media (min-width: 1000px) {
   .main-slider {
     height: 1000px;
-    background: url("../../img/main-sl.png"); } }
+    background: url("../../img/main-sl.png"); }
+    .main-slider .mn-sl-text {
+      display: block;
+      padding-top: 500px; } }
+@media (max-width: 999px) {
+  .main-slider {
+    background: url("../../img/main-sl.png"); }
+    .main-slider .mn-sl-text {
+      display: block; }
+      .main-slider .mn-sl-text .mn-sl-title {
+        max-width: 100%; } }
 body {
   font-family: 'Roboto',sans-serif; }
   body .body-block {
