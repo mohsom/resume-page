@@ -40,6 +40,20 @@ body{
           cursor: pointer;
         }
       }
+      .mn-sl-controls{
+        display: block;
+        .mn-sl-cntr{
+          width: 10px;
+          height: 10px;
+          border-radius: 10px;
+          border: 1px solid #ffffff;
+          cursor: pointer;
+          margin: 10px;
+        }
+        .cntr-active{
+          background-color: #ffffff;
+        }
+      }
     }
   }
 }

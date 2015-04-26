@@ -1,4 +1,5 @@
 @import '_var';
+
 @media (max-width: 999px) {
   .main-slider {
     background: url("../../img/main-sl.png");
@@ -6,6 +7,13 @@
       display: block;
       .mn-sl-title {
         max-width: 100%;
+      }
+    }
+    .mn-sl-controls {
+      width: 100px;
+      margin: 20px auto;
+      .mn-sl-cntr {
+        display: inline-block;
       }
     }
   }
