@@ -76,7 +76,7 @@ body {
           }
         }
       }
-      .menu-item-humb{
+      .menu-item-humb {
         color: #ffffff;
         float: right;
         margin-right: 30px;
@@ -84,7 +84,7 @@ body {
         cursor: pointer;
       }
     }
-    .values{
+    .values {
       display: block;
       max-width: 100%;
       background-color: #ffffff;
@@ -92,19 +92,19 @@ body {
       width: 1165px;
       margin: 0 auto;
       padding-top: 80px;
-      .val-item{
+      .val-item {
         display: inline-block;
         width: 360px;
         margin-left: 25px;
         margin-top: 20px;
-        .val-item-title{
+        .val-item-title {
           display: block;
           font-size: 22px;
           color: #566366;
           text-transform: uppercase;
           font-weight: 600;
         }
-        .val-item-text{
+        .val-item-text {
           display: block;
           margin-top: 50px;
           color: #cccccc;
@@ -112,6 +112,11 @@ body {
           line-height: 1.5;
         }
       }
+    }
+    .about-me {
+      display: block;
+      width: 100%;
+      background-color: #f2f2f1;
     }
   }
 }
