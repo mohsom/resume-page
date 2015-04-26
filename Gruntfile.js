@@ -63,9 +63,7 @@ module.exports = function (grunt) {
         sass: {
             dist: {
                 files: {
-                    'styles/css/style.css': 'styles/sass/style.scss',
-                    'styles/css/big-screen.css': 'styles/sass/big-screen.scss',
-                    'styles/css/small-screen.css': 'styles/sass/small-screen.scss'
+                    'styles/css/style.css': 'styles/sass/style.scss'
                 }
             }
         },

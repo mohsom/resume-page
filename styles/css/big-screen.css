@@ -1,3 +1,61 @@
+/*
+Error: An @import loop has been found:
+           styles/sass/big-screen.scss imports styles/sass/style.scss
+           styles/sass/style.scss imports styles/sass/big-screen.scss
+        on line 2 of styles/sass/style.scss
+        from line 2 of styles/sass/big-screen.scss
 
+1: @import "_var";
+2: @import "style";
 
-/*# sourceMappingURL=big-screen.css.map */
+Backtrace:
+styles/sass/style.scss:2
+styles/sass/big-screen.scss:2
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:555:in `handle_import_loop!'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:318:in `visit_import'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `visit'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:325:in `block (2 levels) in visit_import'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:325:in `map'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:325:in `block in visit_import'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/stack.rb:88:in `block in with_import'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/stack.rb:88:in `with_import'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:322:in `visit_import'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `visit'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:157:in `visit'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:8:in `visit'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/engine.rb:368:in `_render_with_sourcemap'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/engine.rb:285:in `render_with_sourcemap'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/exec/sass_scss.rb:407:in `run'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/exec/base.rb:52:in `parse'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/exec/base.rb:19:in `parse!'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.13/bin/sass:13:in `<top (required)>'
+C:/Ruby22-x64/bin/sass:23:in `load'
+C:/Ruby22-x64/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: An @import loop has been found:\A            styles/sass/big-screen.scss imports styles/sass/style.scss\A            styles/sass/style.scss imports styles/sass/big-screen.scss\A         on line 2 of styles/sass/style.scss\A         from line 2 of styles/sass/big-screen.scss\A \A 1: @import \"_var\";\A 2: @import \"style\";"; }
