@@ -19,7 +19,6 @@
 
   .menu-items {
     display: inline-block;
-    margin-left: 200px;
     vertical-align: middle;
     margin-left: 210px; }
     .menu-items .menu-item {
@@ -144,11 +143,12 @@ body {
       min-height: 345px;
       width: 1165px;
       margin: 0 auto;
-      padding-top: 100px; }
+      padding-top: 80px; }
       body .body-block .values .val-item {
         display: inline-block;
         width: 360px;
-        margin-left: 25px; }
+        margin-left: 25px;
+        margin-top: 20px; }
         body .body-block .values .val-item .val-item-title {
           display: block;
           font-size: 22px;
