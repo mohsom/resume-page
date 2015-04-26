@@ -11,6 +11,23 @@ body{
     .main-slider{
       display: block;
       width: 100%;
+      .mn-sl-text {
+        display: block;
+        padding-top: 500px;
+        .mn-sl-title {
+          display: block;
+          width: 750px;
+          text-align: center;
+          margin: 0 auto;
+          padding: 20px 0 20px 0;
+          border-top: 1px solid #ffffff;
+          border-bottom: 1px solid #ffffff;
+          color: #ffffff;
+          font-size: 60px;
+          font-weight: 500;
+          text-transform: uppercase;
+        }
+      }
     }
   }
 }
