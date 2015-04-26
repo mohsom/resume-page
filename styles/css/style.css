@@ -20,7 +20,8 @@
   .menu-items {
     display: inline-block;
     margin-left: 200px;
-    vertical-align: middle; }
+    vertical-align: middle;
+    margin-left: 210px; }
     .menu-items .menu-item {
       display: inline-block;
       margin-left: 50px;
