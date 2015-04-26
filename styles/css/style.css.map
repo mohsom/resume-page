@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AACA,YAAY;EACV,MAAM,EAAE,MAAM;EACd,UAAU,EAAE,4BAA4B;;ACA1C,IAAI;EACF,WAAW,EAAC,mBAAmB;EAC/B,gBAAW;IACT,OAAO,EAAE,KAAK;IACd,KAAK,EAAE,MAAM;IACb,SAAS,EAAE,IAAI;IACf,MAAM,EAAE,MAAM;IACd,6BAAY;MACV,OAAO,EAAE,KAAK;MACd,KAAK,EAAE,IAAI",
+"sources": ["../sass/big-screen.scss","../sass/style.scss"],
 "names": [],
 "file": "style.css"
 }

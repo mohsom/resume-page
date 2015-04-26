@@ -1,3 +1,16 @@
 @import '_var';
 @import 'big-screen';
 @import 'small-screen';
+body{
+  font-family:'Roboto',sans-serif;
+  .body-block{
+    display: block;
+    width: 1600px;
+    max-width: 100%;
+    margin: 0 auto;
+    .main-slider{
+      display: block;
+      width: 100%;
+    }
+  }
+}

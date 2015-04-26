@@ -1,3 +1,16 @@
+.main-slider {
+  height: 1000px;
+  background: url("../../img/main-sl.png"); }
 
+body {
+  font-family: 'Roboto',sans-serif; }
+  body .body-block {
+    display: block;
+    width: 1600px;
+    max-width: 100%;
+    margin: 0 auto; }
+    body .body-block .main-slider {
+      display: block;
+      width: 100%; }
 
 /*# sourceMappingURL=style.css.map */
