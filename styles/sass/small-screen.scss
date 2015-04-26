@@ -1,6 +1,6 @@
 @import '_var';
 
-@media (max-width: 1444px) {
+@media (max-width: 1469px) {
   .main-slider {
     background: url("../../img/main-sl.png");
     padding-bottom: 25px;
@@ -52,5 +52,20 @@
   }
   .menu-item-humb{
     display: inline-block;
+  }
+  .about-me {
+    display: block;
+    width: 100%;
+    background-color: #f2f2f1;
+    .avatar {
+      display: block;
+      margin: 0 auto;
+    }
+    .ab-me-text {
+      display: block;
+      vertical-align: text-top;
+      margin: 100px auto;
+      max-width: 100%;
+    }
   }
 }

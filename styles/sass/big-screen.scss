@@ -1,6 +1,6 @@
 @import '_var';
 
-@media (min-width: 1445px) {
+@media (min-width: 1470px) {
   .main-slider {
     height: 1000px;
     background: url("../../img/main-sl.png");
@@ -42,7 +42,18 @@
   .menu-item-humb{
     display: none;
   }
-  .about-me{
+  .about-me {
     height: 755px;
+    .avatar {
+      display: inline-block;
+    }
+    .ab-me-text {
+      display: inline-block;
+      vertical-align: text-top;
+      margin-left: 100px;
+      margin-top: 100px;
+      width: 580px;
+      max-width: 100%;
+    }
   }
 }

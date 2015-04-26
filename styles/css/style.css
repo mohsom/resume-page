@@ -1,4 +1,4 @@
-@media (min-width: 1445px) {
+@media (min-width: 1470px) {
   .main-slider {
     height: 1000px;
     background: url("../../img/main-sl.png"); }
@@ -34,8 +34,17 @@
     display: none; }
 
   .about-me {
-    height: 755px; } }
-@media (max-width: 1444px) {
+    height: 755px; }
+    .about-me .avatar {
+      display: inline-block; }
+    .about-me .ab-me-text {
+      display: inline-block;
+      vertical-align: text-top;
+      margin-left: 100px;
+      margin-top: 100px;
+      width: 580px;
+      max-width: 100%; } }
+@media (max-width: 1469px) {
   .main-slider {
     background: url("../../img/main-sl.png");
     padding-bottom: 25px;
@@ -76,7 +85,20 @@
       visibility: visible; }
 
   .menu-item-humb {
-    display: inline-block; } }
+    display: inline-block; }
+
+  .about-me {
+    display: block;
+    width: 100%;
+    background-color: #f2f2f1; }
+    .about-me .avatar {
+      display: block;
+      margin: 0 auto; }
+    .about-me .ab-me-text {
+      display: block;
+      vertical-align: text-top;
+      margin: 100px auto;
+      max-width: 100%; } }
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 18px; }
@@ -156,7 +178,8 @@ body {
         display: inline-block;
         width: 360px;
         margin-left: 25px;
-        margin-top: 20px; }
+        margin-top: 20px;
+        max-width: 100%; }
         body .body-block .values .val-item .val-item-title {
           display: block;
           font-size: 22px;
@@ -166,12 +189,29 @@ body {
         body .body-block .values .val-item .val-item-text {
           display: block;
           margin-top: 50px;
-          color: #cccccc;
+          color: #919191;
           font-size: 15px;
           line-height: 1.5; }
     body .body-block .about-me {
       display: block;
       width: 100%;
       background-color: #f2f2f1; }
+      body .body-block .about-me .avatar {
+        overflow: hidden;
+        width: 610px;
+        max-width: 100%;
+        vertical-align: text-top; }
+      body .body-block .about-me .ab-me-text .ab-me-title {
+        display: block;
+        font-size: 22px;
+        color: #566366;
+        text-transform: uppercase;
+        font-weight: 600; }
+      body .body-block .about-me .ab-me-text .ab-me-content {
+        display: block;
+        margin-top: 50px;
+        color: #919191;
+        font-size: 15px;
+        line-height: 1.5; }
 
 /*# sourceMappingURL=style.css.map */
