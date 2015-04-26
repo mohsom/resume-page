@@ -3,6 +3,7 @@
 @import 'small-screen';
 body{
   font-family:'Roboto',sans-serif;
+  font-size: 18px;
   .body-block{
     display: block;
     width: 1600px;
@@ -16,8 +17,8 @@ body{
         .mn-sl-title {
           display: block;
           width: 750px;
-          text-align: center;
           margin: 0 auto;
+          text-align: center;
           padding: 20px 0 20px 0;
           border-top: 1px solid #ffffff;
           border-bottom: 1px solid #ffffff;
@@ -25,6 +26,18 @@ body{
           font-size: 60px;
           font-weight: 500;
           text-transform: uppercase;
+        }
+        .mn-sl-btn{
+          display: block;
+          margin: 50px auto 0 auto;
+          width: 185px;
+          height: 55px;
+          text-align: center;
+          border:1px solid #ffffff;
+          padding-top: 18px;
+          color: #ffffff;
+          text-transform: uppercase;
+          cursor: pointer;
         }
       }
     }
