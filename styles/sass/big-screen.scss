@@ -1,6 +1,7 @@
 @import '_var';
-@media (min-width: 1000px){
-  .main-slider{
+
+@media (min-width: 1445px) {
+  .main-slider {
     height: 1000px;
     background: url("../../img/main-sl.png");
     .mn-sl-text {
@@ -10,16 +11,29 @@
 
       }
     }
-    .mn-sl-controls{
+    .mn-sl-controls {
       float: right;
       margin-right: 210px;
       margin-top: 195px;
-      .mn-sl-cntr{
+      .mn-sl-cntr {
         display: block;
       }
     }
   }
-  .logo{
+  .logo {
+    display: inline-block;
     margin-left: 210px;
+    vertical-align: middle;
+  }
+  .menu-items {
+    display: inline-block;
+    margin-left: 200px;
+    vertical-align: middle;
+    .menu-item {
+      display: inline-block;
+      margin-left: 50px;
+      height: 100%;
+      padding-top: 25px;
+    }
   }
 }

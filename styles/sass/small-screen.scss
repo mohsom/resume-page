@@ -1,6 +1,6 @@
 @import '_var';
 
-@media (max-width: 999px) {
+@media (max-width: 1444px) {
   .main-slider {
     background: url("../../img/main-sl.png");
     padding-bottom: 25px;
@@ -16,6 +16,26 @@
       .mn-sl-cntr {
         display: inline-block;
       }
+    }
+  }
+  .logo{
+
+  }
+  .menu-items{
+    display: block;
+    width: 100%;
+    background-color: $blue;
+    .menu-item{
+      display: block;
+      width: 100%;
+      text-align: center;
+      height: 100%;
+      font-size: 20px;
+      padding: 10px;
+    }
+    .menu-item:hover{
+      background-color: $green;
+      color: #ffffff;
     }
   }
 }
