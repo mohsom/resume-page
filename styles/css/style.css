@@ -70,5 +70,10 @@ body {
           margin: 10px; }
         body .body-block .main-slider .mn-sl-controls .cntr-active {
           background-color: #ffffff; }
+    body .body-block .menu {
+      display: block;
+      width: 100%;
+      height: 70px;
+      background-color: #252e30; }
 
 /*# sourceMappingURL=style.css.map */
