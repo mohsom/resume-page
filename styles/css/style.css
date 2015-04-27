@@ -218,10 +218,11 @@ body {
         margin-top: 80px; }
         body .body-block .about-me .ab-me-text .areas .areas-row {
           display: block;
-          margin-bottom: 60px; }
+          margin-bottom: 30px; }
           body .body-block .about-me .ab-me-text .areas .areas-row .areas-row-item {
             display: inline-block;
-            width: 280px; }
+            width: 280px;
+            margin-bottom: 30px; }
             body .body-block .about-me .ab-me-text .areas .areas-row .areas-row-item .row-item-title {
               display: block; }
               body .body-block .about-me .ab-me-text .areas .areas-row .areas-row-item .row-item-title i {
