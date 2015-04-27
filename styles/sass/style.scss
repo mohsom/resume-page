@@ -132,15 +132,49 @@ body {
           text-transform: uppercase;
           font-weight: 600;
         }
-        .ab-me-content{
+        .ab-me-content {
           display: block;
           margin-top: 50px;
           color: #919191;
           font-size: 15px;
           line-height: 1.5;
         }
-        .areas{
-
+        .areas {
+          display: block;
+          margin-top: 45px;
+          .areas-row {
+            display: block;
+            margin-bottom: 60px;
+            .areas-row-item {
+              display: inline-block;
+              width: 320px;
+              .row-item-title {
+                display: block;
+                i {
+                  display: inline-block;
+                  vertical-align: text-top;
+                  color: $green;
+                  font-size: 40px;
+                }
+                span {
+                  display: inline-block;
+                  color: #566366;
+                  font-weight: 600;
+                  vertical-align: text-top;
+                  text-transform: uppercase;
+                  font-size: 20px;
+                  margin-left: 25px;
+                }
+              }
+              .row-item-text {
+                display: block;
+                font-size: 15px;
+                color: #919191;
+                line-height: 1.5;
+                margin-left: 70px;
+              }
+            }
+          }
         }
       }
     }

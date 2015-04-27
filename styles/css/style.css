@@ -213,5 +213,35 @@ body {
         color: #919191;
         font-size: 15px;
         line-height: 1.5; }
+      body .body-block .about-me .ab-me-text .areas {
+        display: block;
+        margin-top: 45px; }
+        body .body-block .about-me .ab-me-text .areas .areas-row {
+          display: block;
+          margin-bottom: 60px; }
+          body .body-block .about-me .ab-me-text .areas .areas-row .areas-row-item {
+            display: inline-block;
+            width: 320px; }
+            body .body-block .about-me .ab-me-text .areas .areas-row .areas-row-item .row-item-title {
+              display: block; }
+              body .body-block .about-me .ab-me-text .areas .areas-row .areas-row-item .row-item-title i {
+                display: inline-block;
+                vertical-align: text-top;
+                color: #2ecc71;
+                font-size: 40px; }
+              body .body-block .about-me .ab-me-text .areas .areas-row .areas-row-item .row-item-title span {
+                display: inline-block;
+                color: #566366;
+                font-weight: 600;
+                vertical-align: text-top;
+                text-transform: uppercase;
+                font-size: 20px;
+                margin-left: 25px; }
+            body .body-block .about-me .ab-me-text .areas .areas-row .areas-row-item .row-item-text {
+              display: block;
+              font-size: 15px;
+              color: #919191;
+              line-height: 1.5;
+              margin-left: 70px; }
 
 /*# sourceMappingURL=style.css.map */
