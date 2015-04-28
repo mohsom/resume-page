@@ -252,16 +252,64 @@ body {
                 padding-top: 5px;
               }
             }
-            .nine{
+            .nine {
               width: 90%;
             }
-            .eight{
+            .eight {
               width: 80%;
             }
-            .seven{
+            .seven {
               width: 70%;
             }
           }
+        }
+      }
+    }
+    .resume {
+      display: block;
+      width: 100%;
+      background-color: #f2f2f1;
+      min-height: 420px;
+      overflow: hidden;
+      img {
+        display: block;
+        margin: 100px auto 0 auto;
+      }
+      .rsm-cont {
+        display: block;
+        width: 100%;
+        padding-top: 100px;
+        .rsm-title {
+          display: block;
+          font-size: 22px;
+          color: #566366;
+          text-transform: uppercase;
+          font-weight: 600;
+          margin-bottom: 50px;
+          text-align: center;
+        }
+        .rsm-text {
+          display: block;
+          text-align: center;
+          color: #919191;
+          font-size: 15px;
+          line-height: 1.5;
+          width: 1030px;
+          max-width: 100%;
+          margin: 0 auto;
+        }
+        .rsm-btn {
+          display: block;
+          border: 2px solid $green;
+          color: $green;
+          width: 215px;
+          height: 55px;
+          text-align: center;
+          font-weight: 500;
+          padding-top: 18px;
+          margin: 50px auto;
+          text-transform: uppercase;
+          cursor: pointer;
         }
       }
     }
