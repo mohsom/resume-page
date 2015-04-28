@@ -46,7 +46,9 @@
       max-width: 100%; }
 
   .skills {
-    padding: 100px 190px 100px 200px; } }
+    padding: 100px 190px 100px 200px; }
+    .skills .skl-desc {
+      margin-right: 90px; } }
 @media (max-width: 1469px) {
   .main-slider {
     background: url("../../img/main-sl.png");
@@ -263,7 +265,8 @@ body {
       body .body-block .skills .skl-desc {
         display: inline-block;
         width: 550px;
-        max-width: 100%; }
+        max-width: 100%;
+        vertical-align: text-top; }
         body .body-block .skills .skl-desc .skl-dsc-title {
           display: block;
           font-size: 22px;
@@ -291,6 +294,39 @@ body {
       body .body-block .skills .skl-tech {
         display: inline-block;
         width: 560px;
-        max-width: 100%; }
+        max-width: 100%;
+        vertical-align: text-top;
+        margin-top: 10px; }
+        body .body-block .skills .skl-tech .skl-tech-item {
+          display: block;
+          width: 100%;
+          margin-bottom: 40px; }
+          body .body-block .skills .skl-tech .skl-tech-item .skl-item-title {
+            display: block;
+            font-size: 18px;
+            color: #566366;
+            text-transform: uppercase;
+            font-weight: 600;
+            margin-bottom: 20px; }
+          body .body-block .skills .skl-tech .skl-tech-item .skl-item-progress {
+            display: block;
+            background-color: #f2f2f1;
+            height: 30px; }
+            body .body-block .skills .skl-tech .skl-tech-item .skl-item-progress .skl-item-prg {
+              display: block;
+              height: 100%;
+              background-color: #2ecc71; }
+              body .body-block .skills .skl-tech .skl-tech-item .skl-item-progress .skl-item-prg span {
+                display: block;
+                color: #ffffff;
+                margin-left: 90%;
+                font-weight: 500;
+                padding-top: 5px; }
+            body .body-block .skills .skl-tech .skl-tech-item .skl-item-progress .nine {
+              width: 90%; }
+            body .body-block .skills .skl-tech .skl-tech-item .skl-item-progress .eight {
+              width: 80%; }
+            body .body-block .skills .skl-tech .skl-tech-item .skl-item-progress .seven {
+              width: 70%; }
 
 /*# sourceMappingURL=style.css.map */

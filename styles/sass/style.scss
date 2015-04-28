@@ -180,30 +180,31 @@ body {
         }
       }
     }
-    .skills{
+    .skills {
       display: block;
       width: 100%;
       min-height: 620px;
       background-color: #ffffff;
-      .skl-desc{
+      .skl-desc {
         display: inline-block;
         width: 550px;
         max-width: 100%;
-        .skl-dsc-title{
+        vertical-align: text-top;
+        .skl-dsc-title {
           display: block;
           font-size: 22px;
           color: #566366;
           text-transform: uppercase;
           font-weight: 600;
         }
-        .skl-dsc-text{
+        .skl-dsc-text {
           display: block;
           margin-top: 50px;
           color: #919191;
           font-size: 15px;
           line-height: 1.5;
         }
-        .skl-dsc-btn{
+        .skl-dsc-btn {
           display: block;
           border: 2px solid $green;
           color: $green;
@@ -217,10 +218,51 @@ body {
           cursor: pointer;
         }
       }
-      .skl-tech{
+      .skl-tech {
         display: inline-block;
         width: 560px;
         max-width: 100%;
+        vertical-align: text-top;
+        margin-top: 10px;
+        .skl-tech-item {
+          display: block;
+          width: 100%;
+          margin-bottom: 40px;
+          .skl-item-title {
+            display: block;
+            font-size: 18px;
+            color: #566366;
+            text-transform: uppercase;
+            font-weight: 600;
+            margin-bottom: 20px;
+          }
+          .skl-item-progress {
+            display: block;
+            background-color: #f2f2f1;
+            height: 30px;
+            .skl-item-prg {
+              display: block;
+              height: 100%;
+              background-color: $green;
+              span {
+                display: block;
+                color: #ffffff;
+                margin-left: 90%;
+                font-weight: 500;
+                padding-top: 5px;
+              }
+            }
+            .nine{
+              width: 90%;
+            }
+            .eight{
+              width: 80%;
+            }
+            .seven{
+              width: 70%;
+            }
+          }
+        }
       }
     }
   }
