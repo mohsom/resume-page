@@ -43,7 +43,10 @@
       margin-left: 100px;
       margin-top: 100px;
       width: 580px;
-      max-width: 100%; } }
+      max-width: 100%; }
+
+  .skills {
+    padding: 100px 190px 100px 200px; } }
 @media (max-width: 1469px) {
   .main-slider {
     background: url("../../img/main-sl.png");
@@ -102,7 +105,10 @@
       vertical-align: text-top;
       margin: 100px auto;
       max-width: 100%;
-      width: 360px; } }
+      width: 360px; }
+
+  .skills {
+    padding-top: 100px; } }
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 18px; }
@@ -134,8 +140,9 @@ body {
           width: 185px;
           height: 55px;
           text-align: center;
-          border: 1px solid #ffffff;
+          border: 2px solid #ffffff;
           padding-top: 18px;
+          font-weight: 500;
           color: #ffffff;
           text-transform: uppercase;
           cursor: pointer; }
@@ -253,5 +260,37 @@ body {
       width: 100%;
       min-height: 620px;
       background-color: #ffffff; }
+      body .body-block .skills .skl-desc {
+        display: inline-block;
+        width: 550px;
+        max-width: 100%; }
+        body .body-block .skills .skl-desc .skl-dsc-title {
+          display: block;
+          font-size: 22px;
+          color: #566366;
+          text-transform: uppercase;
+          font-weight: 600; }
+        body .body-block .skills .skl-desc .skl-dsc-text {
+          display: block;
+          margin-top: 50px;
+          color: #919191;
+          font-size: 15px;
+          line-height: 1.5; }
+        body .body-block .skills .skl-desc .skl-dsc-btn {
+          display: block;
+          border: 2px solid #2ecc71;
+          color: #2ecc71;
+          width: 185px;
+          height: 55px;
+          text-align: center;
+          font-weight: 500;
+          padding-top: 18px;
+          margin-top: 50px;
+          text-transform: uppercase;
+          cursor: pointer; }
+      body .body-block .skills .skl-tech {
+        display: inline-block;
+        width: 560px;
+        max-width: 100%; }
 
 /*# sourceMappingURL=style.css.map */
