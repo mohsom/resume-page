@@ -48,9 +48,11 @@
   .main-slider {
     background: url("../../img/main-sl.png");
     padding-bottom: 25px;
-    padding-top: 25px; }
+    padding-top: 25px;
+    height: 1000px; }
     .main-slider .mn-sl-text {
-      display: block; }
+      display: block;
+      margin-top: 40%; }
       .main-slider .mn-sl-text .mn-sl-title {
         max-width: 100%; }
     .main-slider .mn-sl-controls {
@@ -90,15 +92,17 @@
   .about-me {
     display: block;
     width: 100%;
-    background-color: #f2f2f1; }
+    background-color: #f2f2f1;
+    overflow: hidden; }
     .about-me .avatar {
-      display: block;
-      margin: 0 auto; }
+      display: inline-block;
+      margin-right: 30px; }
     .about-me .ab-me-text {
-      display: block;
+      display: inline-block;
       vertical-align: text-top;
       margin: 100px auto;
-      max-width: 100%; } }
+      max-width: 100%;
+      width: 360px; } }
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 18px; }

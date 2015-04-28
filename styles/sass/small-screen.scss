@@ -5,8 +5,10 @@
     background: url("../../img/main-sl.png");
     padding-bottom: 25px;
     padding-top: 25px;
+    height: 1000px;
     .mn-sl-text {
       display: block;
+      margin-top: 40%;
       .mn-sl-title {
         max-width: 100%;
       }
@@ -57,15 +59,17 @@
     display: block;
     width: 100%;
     background-color: #f2f2f1;
+    overflow: hidden;
     .avatar {
-      display: block;
-      margin: 0 auto;
+      display: inline-block;
+      margin-right: 30px;
     }
     .ab-me-text {
-      display: block;
+      display: inline-block;
       vertical-align: text-top;
       margin: 100px auto;
       max-width: 100%;
+      width: 360px;
     }
   }
 }
