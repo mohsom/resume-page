@@ -248,5 +248,10 @@ body {
               color: #919191;
               line-height: 1.5;
               margin-left: 70px; }
+    body .body-block .skills {
+      display: block;
+      width: 100%;
+      min-height: 620px;
+      background-color: #ffffff; }
 
 /*# sourceMappingURL=style.css.map */
