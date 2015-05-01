@@ -48,7 +48,10 @@
   .skills {
     padding: 100px 190px 100px 200px; }
     .skills .skl-desc {
-      margin-right: 90px; } }
+      margin-right: 90px; }
+
+  .exp-l {
+    margin-left: 210px; } }
 @media (max-width: 1469px) {
   .main-slider {
     background: url("../../img/main-sl.png");
@@ -110,7 +113,10 @@
       width: 360px; }
 
   .skills {
-    padding-top: 100px; } }
+    padding-top: 100px; }
+
+  .exp-l {
+    padding: 20px; } }
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 18px; }
@@ -374,6 +380,32 @@ body {
       display: block;
       width: 100%;
       min-height: 1950px;
-      background-color: #ffffff; }
+      background-color: #ffffff;
+      padding-top: 100px; }
+      body .body-block .exp .exp-l {
+        display: inline-block;
+        float: left;
+        width: 550px;
+        max-width: 100%; }
+        body .body-block .exp .exp-l .exp-title {
+          display: block;
+          font-size: 22px;
+          color: #566366;
+          text-transform: uppercase;
+          font-weight: 600;
+          margin-bottom: 50px; }
+        body .body-block .exp .exp-l .exp-text {
+          display: block;
+          color: #919191;
+          font-size: 15px;
+          line-height: 1.5;
+          width: 1030px;
+          max-width: 100%;
+          margin: 0 auto; }
+      body .body-block .exp .exp-r {
+        display: inline-block;
+        float: right;
+        width: 550px;
+        max-width: 100%; }
 
 /*# sourceMappingURL=style.css.map */

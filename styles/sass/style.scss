@@ -318,6 +318,36 @@ body {
       width: 100%;
       min-height: 1950px;
       background-color: #ffffff;
+      padding-top: 100px;
+      .exp-l{
+        display: inline-block;
+        float: left;
+        width: 550px;
+        max-width: 100%;
+        .exp-title{
+          display: block;
+          font-size: 22px;
+          color: #566366;
+          text-transform: uppercase;
+          font-weight: 600;
+          margin-bottom: 50px;
+        }
+        .exp-text{
+          display: block;
+          color: #919191;
+          font-size: 15px;
+          line-height: 1.5;
+          width: 1030px;
+          max-width: 100%;
+          margin: 0 auto;
+        }
+      }
+      .exp-r{
+        display: inline-block;
+        float: right;
+        width: 550px;
+        max-width: 100%;
+      }
     }
   }
 }
