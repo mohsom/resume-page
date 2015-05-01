@@ -370,5 +370,10 @@ body {
           margin: 50px auto;
           text-transform: uppercase;
           cursor: pointer; }
+    body .body-block .exp {
+      display: block;
+      width: 100%;
+      min-height: 1950px;
+      background-color: #ffffff; }
 
 /*# sourceMappingURL=style.css.map */
