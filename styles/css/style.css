@@ -414,5 +414,39 @@ body {
         width: 550px;
         max-width: 100%;
         padding-top: 50px; }
+        body .body-block .exp .exp-r .exp-r-item {
+          display: block;
+          width: 100%;
+          margin-bottom: 80px; }
+          body .body-block .exp .exp-r .exp-r-item .exp-r-title {
+            display: block;
+            font-size: 18px;
+            color: #566366;
+            text-transform: uppercase;
+            font-weight: 600;
+            margin-bottom: 20px; }
+          body .body-block .exp .exp-r .exp-r-item .exp-r-name {
+            display: block;
+            color: #919191; }
+            body .body-block .exp .exp-r .exp-r-item .exp-r-name span {
+              font-weight: 600; }
+          body .body-block .exp .exp-r .exp-r-item .exp-r-exp {
+            display: block;
+            margin-top: 20px;
+            color: #ffffff;
+            width: 72px;
+            height: 30px;
+            background-color: #2ecc71;
+            font-size: 15px;
+            text-align: center;
+            padding-top: 7px; }
+          body .body-block .exp .exp-r .exp-r-item .exp-r-text {
+            display: block;
+            color: #919191;
+            font-size: 15px;
+            line-height: 1.5;
+            width: 1030px;
+            max-width: 100%;
+            margin: 0 auto; }
 
 /*# sourceMappingURL=style.css.map */

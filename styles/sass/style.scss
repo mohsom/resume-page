@@ -1,6 +1,7 @@
 @import '_var';
 @import 'big-screen';
 @import 'small-screen';
+
 //resume page
 body {
   font-family: 'Roboto', sans-serif;
@@ -313,18 +314,18 @@ body {
         }
       }
     }
-    .exp{
+    .exp {
       display: block;
       width: 100%;
       min-height: 1950px;
       background-color: #ffffff;
       padding-top: 100px;
-      .exp-l{
+      .exp-l {
         display: inline-block;
         float: left;
         width: 550px;
         max-width: 100%;
-        .exp-title{
+        .exp-title {
           display: block;
           font-size: 22px;
           color: #566366;
@@ -332,7 +333,7 @@ body {
           font-weight: 600;
           margin-bottom: 50px;
         }
-        .exp-text{
+        .exp-text {
           display: block;
           color: #919191;
           font-size: 15px;
@@ -342,12 +343,52 @@ body {
           margin: 0 auto;
         }
       }
-      .exp-r{
+      .exp-r {
         display: inline-block;
         float: right;
         width: 550px;
         max-width: 100%;
         padding-top: 50px;
+        .exp-r-item {
+          display: block;
+          width: 100%;
+          margin-bottom: 80px;
+          .exp-r-title {
+            display: block;
+            font-size: 18px;
+            color: #566366;
+            text-transform: uppercase;
+            font-weight: 600;
+            margin-bottom: 20px;
+          }
+          .exp-r-name {
+            display: block;
+            color: #919191;
+            span {
+              font-weight: 600;
+            }
+          }
+          .exp-r-exp {
+            display: block;
+            margin-top: 20px;
+            color: #ffffff;
+            width: 72px;
+            height: 30px;
+            background-color: $green;
+            font-size: 15px;
+            text-align: center;
+            padding-top: 7px;
+          }
+          .exp-r-text {
+            display: block;
+            color: #919191;
+            font-size: 15px;
+            line-height: 1.5;
+            width: 1030px;
+            max-width: 100%;
+            margin: 0 auto;
+          }
+        }
       }
     }
   }
