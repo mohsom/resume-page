@@ -51,7 +51,10 @@
       margin-right: 90px; }
 
   .exp-l {
-    margin-left: 210px; } }
+    margin-left: 210px; }
+
+  .exp-r {
+    margin-right: 210px; } }
 @media (max-width: 1469px) {
   .main-slider {
     background: url("../../img/main-sl.png");
@@ -116,6 +119,9 @@
     padding-top: 100px; }
 
   .exp-l {
+    padding: 20px; }
+
+  .exp-r {
     padding: 20px; } }
 body {
   font-family: 'Roboto', sans-serif;
@@ -406,6 +412,7 @@ body {
         display: inline-block;
         float: right;
         width: 550px;
-        max-width: 100%; }
+        max-width: 100%;
+        padding-top: 50px; }
 
 /*# sourceMappingURL=style.css.map */
