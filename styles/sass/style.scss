@@ -391,5 +391,13 @@ body {
         }
       }
     }
+    .hr{
+      display: block;
+      width: 1170px;
+      height: 0;
+      border-top: 1px solid #cccccc;
+      margin: 0 auto;
+      max-width: 100%;
+    }
   }
 }

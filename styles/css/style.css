@@ -448,5 +448,12 @@ body {
             width: 1030px;
             max-width: 100%;
             margin: 0 auto; }
+    body .body-block .hr {
+      display: block;
+      width: 1170px;
+      height: 0;
+      border-top: 1px solid #cccccc;
+      margin: 0 auto;
+      max-width: 100%; }
 
 /*# sourceMappingURL=style.css.map */
