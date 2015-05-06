@@ -455,5 +455,11 @@ body {
       border-top: 1px solid #cccccc;
       margin: 0 auto;
       max-width: 100%; }
+    body .body-block .quote {
+      display: block;
+      width: 100%;
+      min-height: 415px;
+      background-color: #f2f2f1;
+      margin-top: 230px; }
 
 /*# sourceMappingURL=style.css.map */
