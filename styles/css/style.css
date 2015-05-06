@@ -481,5 +481,20 @@ body {
         color: #566366;
         font-size: 18px;
         text-transform: uppercase; }
+      body .body-block .quote .counters {
+        display: block;
+        margin-top: 50px;
+        width: 100%;
+        text-align: center; }
+        body .body-block .quote .counters .count {
+          display: inline-block;
+          width: 10px;
+          height: 10px;
+          border-radius: 10px;
+          border: 1px solid #2ecc71;
+          cursor: pointer;
+          margin: 5px; }
+        body .body-block .quote .counters .count-active {
+          background-color: #2ecc71; }
 
 /*# sourceMappingURL=style.css.map */

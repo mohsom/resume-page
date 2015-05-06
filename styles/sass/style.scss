@@ -427,6 +427,24 @@ body {
         font-size: 18px;
         text-transform: uppercase;
       }
+      .counters{
+        display: block;
+        margin-top: 50px;
+        width: 100%;
+        text-align: center;
+        .count{
+          display: inline-block;
+          width: 10px;
+          height: 10px;
+          border-radius: 10px;
+          border: 1px solid $green;
+          cursor: pointer;
+          margin: 5px;
+        }
+        .count-active{
+          background-color: $green;
+        }
+      }
     }
   }
 }
