@@ -496,5 +496,9 @@ body {
           margin: 5px; }
         body .body-block .quote .counters .count-active {
           background-color: #2ecc71; }
+    body .body-block .portfolio {
+      display: block;
+      width: 100%;
+      min-height: 1395px; }
 
 /*# sourceMappingURL=style.css.map */
