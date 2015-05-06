@@ -461,5 +461,25 @@ body {
       min-height: 415px;
       background-color: #f2f2f1;
       margin-top: 230px; }
+      body .body-block .quote .quote-text {
+        display: block;
+        width: 1070px;
+        max-width: 100%;
+        text-align: center;
+        font-style: italic;
+        font-size: 20px;
+        color: #919191;
+        line-height: 1.5;
+        margin: 0 auto;
+        padding-top: 105px; }
+      body .body-block .quote .author {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-top: 50px;
+        font-weight: 600;
+        color: #566366;
+        font-size: 18px;
+        text-transform: uppercase; }
 
 /*# sourceMappingURL=style.css.map */
