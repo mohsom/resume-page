@@ -471,6 +471,52 @@ body {
           line-height: 1.5;
         }
       }
+      .prtfl-table {
+        display: block;
+        max-width: 100%;
+        width: 1180px;
+        margin-top: 100px;
+        .prtfl-tb-row{
+          display: block;
+          width: 100%;
+          .prtfl-tb-item{
+            display: inline-block;
+            width: 365px;
+            max-width: 100%;
+            height: 300px;
+          }
+          .prtfl-item-filter{
+
+          }
+          .prtfl-item-project{
+
+          }
+          .prj1{
+            background: url("../../img/f1.png");
+          }
+          .prj2{
+            background: url("../../img/f2.png");
+          }
+          .prj3{
+            background: url("../../img/f3.png");
+          }
+          .prj4{
+            background: url("../../img/f4.png");
+          }
+          .prj5{
+            background: url("../../img/f5.png");
+          }
+          .prj6{
+            background: url("../../img/f6.png");
+          }
+          .prj7{
+            background: url("../../img/f7.png");
+          }
+          .prj8{
+            background: url("../../img/f8.png");
+          }
+        }
+      }
     }
   }
 }
