@@ -533,9 +533,28 @@ body {
             height: 300px;
             margin-left: 10px;
             margin-right: 10px;
-            margin-bottom: 40px; }
+            margin-bottom: 40px;
+            vertical-align: text-top; }
           body .body-block .portfolio .prtfl-table .prtfl-tb-row .prtfl-item-filter {
-            background-color: #252e30; }
+            background-color: #252e30;
+            color: #ffffff;
+            font-size: 15px;
+            padding-left: 40px;
+            padding-top: 40px; }
+            body .body-block .portfolio .prtfl-table .prtfl-tb-row .prtfl-item-filter .filter-title {
+              display: block;
+              font-weight: 600;
+              text-transform: uppercase;
+              padding-bottom: 40px; }
+            body .body-block .portfolio .prtfl-table .prtfl-tb-row .prtfl-item-filter .filter-menu {
+              display: block; }
+              body .body-block .portfolio .prtfl-table .prtfl-tb-row .prtfl-item-filter .filter-menu .filter-menu-item {
+                display: block;
+                color: #919191;
+                margin-bottom: 15px;
+                cursor: pointer; }
+              body .body-block .portfolio .prtfl-table .prtfl-tb-row .prtfl-item-filter .filter-menu .filter-menu-item:hover {
+                color: #ffffff; }
           body .body-block .portfolio .prtfl-table .prtfl-tb-row #prj1 {
             background: url("../../img/f1.png"); }
           body .body-block .portfolio .prtfl-table .prtfl-tb-row #prj2 {

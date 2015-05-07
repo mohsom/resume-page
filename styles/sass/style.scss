@@ -476,10 +476,10 @@ body {
         max-width: 100%;
         width: 1180px;
         margin: 100px auto;
-        .prtfl-tb-row{
+        .prtfl-tb-row {
           display: block;
           width: 100%;
-          .prtfl-tb-item{
+          .prtfl-tb-item {
             display: inline-block;
             width: 365px;
             max-width: 100%;
@@ -487,35 +487,58 @@ body {
             margin-left: 10px;
             margin-right: 10px;
             margin-bottom: 40px;
+            vertical-align: text-top;
           }
-          .prtfl-item-filter{
-                background-color: #252e30;
+          .prtfl-item-filter {
+            background-color: #252e30;
+            color: #ffffff;
+            font-size: 15px;
+            padding-left: 40px;
+            padding-top: 40px;
+            .filter-title {
+              display: block;
+              font-weight: 600;
+              text-transform: uppercase;
+              padding-bottom: 40px;
+            }
+            .filter-menu {
+              display: block;
+              .filter-menu-item {
+                display: block;
+                color: #919191;
+                margin-bottom: 15px;
+                cursor: pointer;
+              }
+              .filter-menu-item:hover{
+                color: #ffffff;
+              }
+            }
           }
-          .prtfl-item-project{
+          .prtfl-item-project {
 
           }
-          #prj1{
+          #prj1 {
             background: url("../../img/f1.png");
           }
-          #prj2{
+          #prj2 {
             background: url("../../img/f2.png");
           }
-          #prj3{
+          #prj3 {
             background: url("../../img/f3.png");
           }
-          #prj4{
+          #prj4 {
             background: url("../../img/f4.png");
           }
-          #prj5{
+          #prj5 {
             background: url("../../img/f5.png");
           }
-          #prj6{
+          #prj6 {
             background: url("../../img/f6.png");
           }
-          #prj7{
+          #prj7 {
             background: url("../../img/f7.png");
           }
-          #prj8{
+          #prj8 {
             background: url("../../img/f8.png");
           }
         }
