@@ -405,7 +405,7 @@ body {
       min-height: 415px;
       background-color: #f2f2f1;
       margin-top: 230px;
-      .quote-text{
+      .quote-text {
         display: block;
         width: 1070px;
         max-width: 100%;
@@ -417,7 +417,7 @@ body {
         margin: 0 auto;
         padding-top: 105px;
       }
-      .author{
+      .author {
         display: block;
         width: 100%;
         text-align: center;
@@ -427,12 +427,12 @@ body {
         font-size: 18px;
         text-transform: uppercase;
       }
-      .counters{
+      .counters {
         display: block;
         margin-top: 50px;
         width: 100%;
         text-align: center;
-        .count{
+        .count {
           display: inline-block;
           width: 10px;
           height: 10px;
@@ -441,15 +441,36 @@ body {
           cursor: pointer;
           margin: 5px;
         }
-        .count-active{
+        .count-active {
           background-color: $green;
         }
       }
     }
-    .portfolio{
+    .portfolio {
       display: block;
       width: 100%;
       min-height: 1395px;
+      .prtfl-text {
+        display: block;
+        width: 1030px;
+        max-width: 100%;
+        margin: 100px auto;
+        text-align: center;
+        .prtfl-title {
+          display: block;
+          font-size: 22px;
+          color: #566366;
+          text-transform: uppercase;
+          font-weight: 600;
+        }
+        .prtfl-subtitle {
+          display: block;
+          margin-top: 50px;
+          color: #919191;
+          font-size: 15px;
+          line-height: 1.5;
+        }
+      }
     }
   }
 }

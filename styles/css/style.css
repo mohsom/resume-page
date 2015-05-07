@@ -500,5 +500,23 @@ body {
       display: block;
       width: 100%;
       min-height: 1395px; }
+      body .body-block .portfolio .prtfl-text {
+        display: block;
+        width: 1030px;
+        max-width: 100%;
+        margin: 100px auto;
+        text-align: center; }
+        body .body-block .portfolio .prtfl-text .prtfl-title {
+          display: block;
+          font-size: 22px;
+          color: #566366;
+          text-transform: uppercase;
+          font-weight: 600; }
+        body .body-block .portfolio .prtfl-text .prtfl-subtitle {
+          display: block;
+          margin-top: 50px;
+          color: #919191;
+          font-size: 15px;
+          line-height: 1.5; }
 
 /*# sourceMappingURL=style.css.map */
