@@ -555,6 +555,22 @@ body {
                 cursor: pointer; }
               body .body-block .portfolio .prtfl-table .prtfl-tb-row .prtfl-item-filter .filter-menu .filter-menu-item:hover {
                 color: #ffffff; }
+          body .body-block .portfolio .prtfl-table .prtfl-tb-row .prtfl-item-project {
+            cursor: pointer; }
+            body .body-block .portfolio .prtfl-table .prtfl-tb-row .prtfl-item-project .project-hover {
+              display: block;
+              width: 100%;
+              height: 100%;
+              background: rgba(46, 165, 98, 0.7);
+              text-align: center;
+              padding-top: 130px;
+              opacity: 0; }
+              body .body-block .portfolio .prtfl-table .prtfl-tb-row .prtfl-item-project .project-hover i {
+                display: block;
+                color: #ffffff;
+                font-size: 50px; }
+            body .body-block .portfolio .prtfl-table .prtfl-tb-row .prtfl-item-project .project-hover:hover {
+              opacity: 1; }
           body .body-block .portfolio .prtfl-table .prtfl-tb-row #prj1 {
             background: url("../../img/f1.png"); }
           body .body-block .portfolio .prtfl-table .prtfl-tb-row #prj2 {
