@@ -685,7 +685,8 @@ body {
             margin-top: 8px;
             color: #191f21; }
         body .body-block .footer .footer-social .social-item:hover {
-          color: #ffffff;
           background-color: #4b5456; }
+          body .body-block .footer .footer-social .social-item:hover i {
+            color: #ffffff; }
 
 /*# sourceMappingURL=style.css.map */

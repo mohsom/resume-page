@@ -672,8 +672,10 @@ body {
           }
         }
         .social-item:hover{
-          color: #ffffff;
           background-color: #4b5456;
+          i{
+            color: #ffffff;
+          }
         }
       }
     }
