@@ -621,35 +621,60 @@ body {
             border: 0 solid #ffffff;
             color: #ffffff;
           }
-          textarea{
+          textarea {
             @extend input;
             resize: none;
           }
-          input:focus{
-            border-style:none;
+          input:focus {
+            border-style: none;
           }
           .small-field {
             height: 55px;
           }
-          .big-field{
+          .big-field {
             height: 280px;
           }
         }
       }
     }
-    .footer{
+    .footer {
       display: block;
       width: 100%;
       background-color: #191f21;
       min-height: 180px;
       padding-top: 45px;
-      .footer-title{
+      .footer-title {
         display: block;
         width: 100%;
         text-align: center;
         color: #3e4648;
         text-transform: uppercase;
         font-size: 16px;
+      }
+      .footer-social {
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding-top: 25px;
+        .social-item {
+          display: inline-block;
+          width: 35px;
+          height: 35px;
+          border-radius: 35px;
+          background-color: #4b5456;
+          text-align: center;
+          margin: 5px;
+          cursor: pointer;
+          i {
+            display: block;
+            margin-top: 8px;
+            color: #191f21;
+          }
+        }
+        .social-item:hover{
+          color: #ffffff;
+          background-color: #4b5456;
+        }
       }
     }
   }
