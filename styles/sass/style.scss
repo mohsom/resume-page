@@ -637,5 +637,20 @@ body {
         }
       }
     }
+    .footer{
+      display: block;
+      width: 100%;
+      background-color: #191f21;
+      min-height: 180px;
+      padding-top: 45px;
+      .footer-title{
+        display: block;
+        width: 100%;
+        text-align: center;
+        color: #3e4648;
+        text-transform: uppercase;
+        font-size: 16px;
+      }
+    }
   }
 }
