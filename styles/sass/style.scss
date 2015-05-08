@@ -580,10 +580,24 @@ body {
           font-weight: 600;
           margin-bottom: 50px;
         }
-        .cnf-ing-text {
+        .cnt-inf-text {
           display: block;
           line-height: 1.5;
           color: #66696a;
+        }
+        .cnt-inf-address{
+          display: block;
+          @extend .cnt-inf-text;
+          width: 160px;
+          margin-top: 45px;
+        }
+        .cnts{
+          @extend  .cnt-inf-text;
+          margin-top: 40px;
+          span{
+            margin-right: 25px;
+            color: #ffffff;
+          }
         }
       }
       .contact-form {

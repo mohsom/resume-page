@@ -613,10 +613,19 @@ body {
           text-transform: uppercase;
           font-weight: 600;
           margin-bottom: 50px; }
-        body .body-block .contact-me .contact-info .cnf-ing-text {
+        body .body-block .contact-me .contact-info .cnt-inf-text, body .body-block .contact-me .contact-info .cnt-inf-address, body .body-block .contact-me .contact-info .cnts {
           display: block;
           line-height: 1.5;
           color: #66696a; }
+        body .body-block .contact-me .contact-info .cnt-inf-address {
+          display: block;
+          width: 160px;
+          margin-top: 45px; }
+        body .body-block .contact-me .contact-info .cnts {
+          margin-top: 40px; }
+          body .body-block .contact-me .contact-info .cnts span {
+            margin-right: 25px;
+            color: #ffffff; }
       body .body-block .contact-me .contact-form {
         display: inline-block;
         float: right;
