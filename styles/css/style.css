@@ -587,5 +587,10 @@ body {
             background: url("../../img/f7.png"); }
           body .body-block .portfolio .prtfl-table .prtfl-tb-row #prj8 {
             background: url("../../img/f8.png"); }
+    body .body-block .contact-me {
+      display: block;
+      width: 100%;
+      min-height: 910px;
+      background-color: #252e30; }
 
 /*# sourceMappingURL=style.css.map */
