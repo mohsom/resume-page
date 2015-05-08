@@ -585,16 +585,16 @@ body {
           line-height: 1.5;
           color: #66696a;
         }
-        .cnt-inf-address{
+        .cnt-inf-address {
           display: block;
           @extend .cnt-inf-text;
           width: 160px;
           margin-top: 45px;
         }
-        .cnts{
-          @extend  .cnt-inf-text;
+        .cnts {
+          @extend .cnt-inf-text;
           margin-top: 40px;
-          span{
+          span {
             margin-right: 25px;
             color: #ffffff;
           }
@@ -605,6 +605,36 @@ body {
         float: right;
         width: 550px;
         max-width: 100%;
+        .contact-form-item {
+          display: block;
+          width: 100%;
+          margin-top: 40px;
+          .cnt-form-item-title {
+            display: block;
+            color: #ffffff;
+            margin-bottom: 10px;
+          }
+          input {
+            display: block;
+            background-color: #4b5456;
+            width: 100%;
+            border: 0 solid #ffffff;
+            color: #ffffff;
+          }
+          textarea{
+            @extend input;
+            resize: none;
+          }
+          input:focus{
+            border-style:none;
+          }
+          .small-field {
+            height: 55px;
+          }
+          .big-field{
+            height: 280px;
+          }
+        }
       }
     }
   }

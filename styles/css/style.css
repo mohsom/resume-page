@@ -631,5 +631,27 @@ body {
         float: right;
         width: 550px;
         max-width: 100%; }
+        body .body-block .contact-me .contact-form .contact-form-item {
+          display: block;
+          width: 100%;
+          margin-top: 40px; }
+          body .body-block .contact-me .contact-form .contact-form-item .cnt-form-item-title {
+            display: block;
+            color: #ffffff;
+            margin-bottom: 10px; }
+          body .body-block .contact-me .contact-form .contact-form-item input, body .body-block .contact-me .contact-form .contact-form-item textarea {
+            display: block;
+            background-color: #4b5456;
+            width: 100%;
+            border: 0 solid #ffffff;
+            color: #ffffff; }
+          body .body-block .contact-me .contact-form .contact-form-item textarea {
+            resize: none; }
+          body .body-block .contact-me .contact-form .contact-form-item input:focus, body .body-block .contact-me .contact-form .contact-form-item textarea:focus {
+            border-style: none; }
+          body .body-block .contact-me .contact-form .contact-form-item .small-field {
+            height: 55px; }
+          body .body-block .contact-me .contact-form .contact-form-item .big-field {
+            height: 280px; }
 
 /*# sourceMappingURL=style.css.map */
