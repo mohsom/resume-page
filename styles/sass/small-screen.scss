@@ -55,22 +55,41 @@
   .menu-item-humb{
     display: inline-block;
   }
+  .values {
+    display: block;
+    width: 100%;
+    text-align: center;
+    .val-item {
+      width: 500px;
+      max-width: 100%;
+    }
+  }
   .about-me {
     display: block;
     width: 100%;
     background-color: #f2f2f1;
     overflow: hidden;
     .avatar {
-      display: inline-block;
-      margin-right: 30px;
+      display: block;
+      margin: 20px auto;
     }
     .ab-me-text {
       display: inline-block;
       vertical-align: text-top;
       margin: 100px auto;
       max-width: 100%;
-      width: 360px;
+      width: 100%;
     }
+  }
+  .areas-row{
+    display: block;
+    width: 100%;
+  }
+  .areas-row-item {
+    display: block;
+    width: 230px;
+    max-width: 100%;
+    margin: 0 auto;
   }
   .skills {
     padding-top: 100px;

@@ -1,7 +1,7 @@
 @import '_var';
 
 @media (min-width: 1170px) {
-  body{
+  body {
     min-width: 1600px;
   }
   .main-slider {
@@ -28,7 +28,7 @@
     margin-left: 210px;
     vertical-align: middle;
   }
-  .menu{
+  .menu {
     height: 70px;
   }
   .menu-items {
@@ -42,7 +42,7 @@
       padding-top: 20px;
     }
   }
-  .menu-item-humb{
+  .menu-item-humb {
     display: none;
   }
   .about-me {
@@ -59,20 +59,32 @@
       max-width: 100%;
     }
   }
+  .values {
+    .val-item {
+      width: 360px;
+    }
+  }
+  .areas-row-item {
+    display: inline-block;
+  }
   .skills {
     padding: 100px 190px 100px 200px;
-    .skl-desc{
+    .skl-desc {
       margin-right: 90px;
     }
   }
-  .exp-l{
+
+  .exp-l {
     margin-left: 210px;
   }
-  .exp-r{
+
+  .exp-r {
     margin-right: 210px;
   }
-  .contact-me{
+
+  .contact-me {
     padding-left: 210px;
     padding-right: 210px;
   }
+
 }

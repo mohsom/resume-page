@@ -48,6 +48,12 @@
       width: 580px;
       max-width: 100%; }
 
+  .values .val-item {
+    width: 360px; }
+
+  .areas-row-item {
+    display: inline-block; }
+
   .skills {
     padding: 100px 190px 100px 200px; }
     .skills .skl-desc {
@@ -107,20 +113,38 @@
   .menu-item-humb {
     display: inline-block; }
 
+  .values {
+    display: block;
+    width: 100%;
+    text-align: center; }
+    .values .val-item {
+      width: 500px;
+      max-width: 100%; }
+
   .about-me {
     display: block;
     width: 100%;
     background-color: #f2f2f1;
     overflow: hidden; }
     .about-me .avatar {
-      display: inline-block;
-      margin-right: 30px; }
+      display: block;
+      margin: 20px auto; }
     .about-me .ab-me-text {
       display: inline-block;
       vertical-align: text-top;
       margin: 100px auto;
       max-width: 100%;
-      width: 360px; }
+      width: 100%; }
+
+  .areas-row {
+    display: block;
+    width: 100%; }
+
+  .areas-row-item {
+    display: block;
+    width: 230px;
+    max-width: 100%;
+    margin: 0 auto; }
 
   .skills {
     padding-top: 100px; }
@@ -212,7 +236,6 @@ body {
       padding-top: 80px; }
       body .body-block .values .val-item {
         display: inline-block;
-        width: 360px;
         margin-left: 25px;
         margin-top: 20px;
         max-width: 100%; }
@@ -256,7 +279,6 @@ body {
           display: block;
           margin-bottom: 30px; }
           body .body-block .about-me .ab-me-text .areas .areas-row .areas-row-item {
-            display: inline-block;
             width: 280px;
             margin-bottom: 30px; }
             body .body-block .about-me .ab-me-text .areas .areas-row .areas-row-item .row-item-title {
