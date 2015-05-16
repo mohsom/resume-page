@@ -150,10 +150,14 @@
     padding-top: 100px; }
 
   .exp-l {
-    padding: 20px; }
+    padding: 20px;
+    margin: 0 auto;
+    float: none; }
 
   .exp-r {
-    padding: 20px; }
+    padding: 20px;
+    margin: 0 auto;
+    float: none; }
 
   .contact-me {
     padding-left: 50px;
