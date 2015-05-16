@@ -1,6 +1,9 @@
 @import '_var';
 
-@media (max-width: 1599px)and(min-width: 1345px) {
+@media (max-width: 1599px) {
+  body{
+    min-width: 1345px;
+  }
   .main-slider {
     height: 1000px;
     background: url("../../img/main-sl.png");
