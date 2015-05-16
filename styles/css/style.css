@@ -659,6 +659,17 @@ body {
             height: 55px; }
           body .body-block .contact-me .contact-form .contact-form-item .big-field {
             height: 280px; }
+        body .body-block .contact-me .contact-form .contact-me-btn {
+          display: block;
+          margin-top: 40px;
+          width: 185px;
+          height: 55px;
+          color: #ffffff;
+          text-transform: uppercase;
+          cursor: pointer;
+          padding-top: 20px;
+          text-align: center;
+          background-color: #191f21; }
     body .body-block .footer {
       display: block;
       width: 100%;
