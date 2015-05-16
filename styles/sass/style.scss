@@ -270,9 +270,15 @@ body {
       background-color: #f2f2f1;
       min-height: 420px;
       overflow: hidden;
-      img {
-        display: block;
-        margin: 100px auto 0 auto;
+      .arrow-border{
+        position: absolute;
+        left: 48%;
+        margin-top: 45px;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 20px 27.5px 0 27.5px;
+        border-color: #f2f2f1 transparent transparent transparent;
       }
       .rsm-cont {
         display: block;
