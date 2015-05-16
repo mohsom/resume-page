@@ -1,111 +1,86 @@
 @import '_var';
 
-@media (max-width: 1170px) {
+@media (max-width: 1599px) {
   .main-slider {
-    background: url("../../img/main-sl.png");
-    padding-bottom: 25px;
-    padding-top: 25px;
     height: 1000px;
+    background: url("../../img/main-sl.png");
     .mn-sl-text {
       display: block;
-      margin-top: 40%;
+      padding-top: 500px;
       .mn-sl-title {
-        max-width: 100%;
+
       }
     }
     .mn-sl-controls {
-      width: 100px;
-      margin: 20px auto;
+      float: right;
+      margin-right: 210px;
+      margin-top: 195px;
       .mn-sl-cntr {
-        display: inline-block;
+        display: block;
       }
     }
   }
-  .logo{
-
-  }
-  .menu{
-    min-height: 70px;
-  }
-  .menu-items{
-    display: block;
-    width: 100%;
-    background-color: $blue;
-    height: 0;
-    .menu-item{
-      display: block;
-      width: 100%;
-      text-align: center;
-      height: 50px;
-      font-size: 20px;
-      padding: 20px;
-      visibility: hidden;
-    }
-    .menu-item:hover{
-      background-color: $green;
-      color: #ffffff;
-    }
-  }
-  .visible{
-    height: 350px;
-    .menu-item{
-      visibility: visible;
-    }
-  }
-  .menu-item-humb{
+  .logo {
     display: inline-block;
+    margin-left: 110px;
+    vertical-align: middle;
   }
-  .values {
-    display: block;
-    width: 100%;
-    text-align: center;
-    .val-item {
-      width: 500px;
-      max-width: 100%;
+  .menu {
+    height: 70px;
+  }
+  .menu-items {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    .menu-item {
+      display: inline-block;
+      margin-left: 50px;
+      height: 100%;
+      padding-top: 20px;
     }
+  }
+  .menu-item-humb {
+    display: none;
   }
   .about-me {
-    display: block;
-    width: 100%;
-    background-color: #f2f2f1;
-    overflow: hidden;
+    height: 755px;
     .avatar {
-      display: block;
-      margin: 20px auto;
+      display: inline-block;
     }
     .ab-me-text {
       display: inline-block;
       vertical-align: text-top;
-      margin: 100px auto;
+      margin-left: 100px;
+      margin-top: 100px;
+      width: 580px;
       max-width: 100%;
-      width: 100%;
     }
   }
-  .areas-row{
-    display: block;
-    width: 100%;
+  .values {
+    .val-item {
+      width: 360px;
+    }
   }
   .areas-row-item {
-    display: block;
-    width: 230px;
-    max-width: 100%;
-    margin: 0 auto;
+    display: inline-block;
   }
   .skills {
-    padding-top: 100px;
+    padding: 100px 190px 100px 200px;
+    .skl-desc {
+      margin-right: 90px;
+    }
   }
-  .exp-l{
-    padding: 20px;
-    margin: 0 auto;
-    float: none;
+
+  .exp-l {
+    margin-left: 210px;
   }
-  .exp-r{
-    padding: 20px;
-    margin: 0 auto;
-    float: none;
+
+  .exp-r {
+    margin-right: 210px;
   }
-  .contact-me{
-    padding-left: 50px;
-    padding-right: 50px;
+
+  .contact-me {
+    padding-left: 210px;
+    padding-right: 210px;
   }
 }

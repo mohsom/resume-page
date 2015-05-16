@@ -1,7 +1,4 @@
-@media (min-width: 1170px) {
-  body {
-    min-width: 1600px; }
-
+@media (min-width: 1600px) {
   .main-slider {
     height: 1000px;
     background: url("../../img/main-sl.png"); }
@@ -68,100 +65,73 @@
   .contact-me {
     padding-left: 210px;
     padding-right: 210px; } }
-@media (max-width: 1170px) {
+@media (max-width: 1599px) {
   .main-slider {
-    background: url("../../img/main-sl.png");
-    padding-bottom: 25px;
-    padding-top: 25px;
-    height: 1000px; }
+    height: 1000px;
+    background: url("../../img/main-sl.png"); }
     .main-slider .mn-sl-text {
       display: block;
-      margin-top: 40%; }
-      .main-slider .mn-sl-text .mn-sl-title {
-        max-width: 100%; }
+      padding-top: 500px; }
     .main-slider .mn-sl-controls {
-      width: 100px;
-      margin: 20px auto; }
+      float: right;
+      margin-right: 210px;
+      margin-top: 195px; }
       .main-slider .mn-sl-controls .mn-sl-cntr {
-        display: inline-block; }
+        display: block; }
+
+  .logo {
+    display: inline-block;
+    margin-left: 110px;
+    vertical-align: middle; }
 
   .menu {
-    min-height: 70px; }
+    height: 70px; }
 
   .menu-items {
-    display: block;
-    width: 100%;
-    background-color: #252e30;
-    height: 0; }
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px; }
     .menu-items .menu-item {
-      display: block;
-      width: 100%;
-      text-align: center;
-      height: 50px;
-      font-size: 20px;
-      padding: 20px;
-      visibility: hidden; }
-    .menu-items .menu-item:hover {
-      background-color: #2ecc71;
-      color: #ffffff; }
-
-  .visible {
-    height: 350px; }
-    .visible .menu-item {
-      visibility: visible; }
+      display: inline-block;
+      margin-left: 50px;
+      height: 100%;
+      padding-top: 20px; }
 
   .menu-item-humb {
-    display: inline-block; }
-
-  .values {
-    display: block;
-    width: 100%;
-    text-align: center; }
-    .values .val-item {
-      width: 500px;
-      max-width: 100%; }
+    display: none; }
 
   .about-me {
-    display: block;
-    width: 100%;
-    background-color: #f2f2f1;
-    overflow: hidden; }
+    height: 755px; }
     .about-me .avatar {
-      display: block;
-      margin: 20px auto; }
+      display: inline-block; }
     .about-me .ab-me-text {
       display: inline-block;
       vertical-align: text-top;
-      margin: 100px auto;
-      max-width: 100%;
-      width: 100%; }
+      margin-left: 100px;
+      margin-top: 100px;
+      width: 580px;
+      max-width: 100%; }
 
-  .areas-row {
-    display: block;
-    width: 100%; }
+  .values .val-item {
+    width: 360px; }
 
   .areas-row-item {
-    display: block;
-    width: 230px;
-    max-width: 100%;
-    margin: 0 auto; }
+    display: inline-block; }
 
   .skills {
-    padding-top: 100px; }
+    padding: 100px 190px 100px 200px; }
+    .skills .skl-desc {
+      margin-right: 90px; }
 
   .exp-l {
-    padding: 20px;
-    margin: 0 auto;
-    float: none; }
+    margin-left: 210px; }
 
   .exp-r {
-    padding: 20px;
-    margin: 0 auto;
-    float: none; }
+    margin-right: 210px; }
 
   .contact-me {
-    padding-left: 50px;
-    padding-right: 50px; } }
+    padding-left: 210px;
+    padding-right: 210px; } }
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 18px; }
