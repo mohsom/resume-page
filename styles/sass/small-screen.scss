@@ -1,9 +1,90 @@
 @import '_var';
 
-@media (max-width: 1599px) {
+@media (max-width: 1599px){
   body{
-    min-width: 1345px;
+    min-width: 1350px;
   }
+  .main-slider {
+    height: 1000px;
+    background: url("../../img/main-sl.png");
+    .mn-sl-text {
+      display: block;
+      padding-top: 500px;
+      .mn-sl-title {
+
+      }
+    }
+    .mn-sl-controls {
+      float: right;
+      margin-right: 210px;
+      margin-top: 195px;
+      .mn-sl-cntr {
+        display: block;
+      }
+    }
+  }
+  .logo {
+    display: inline-block;
+    margin-left: 110px;
+    vertical-align: middle;
+  }
+  .menu {
+    height: 70px;
+  }
+  .menu-items {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    .menu-item {
+      display: inline-block;
+      margin-left: 50px;
+      height: 100%;
+      padding-top: 20px;
+    }
+  }
+  .menu-item-humb {
+    display: none;
+  }
+  .about-me {
+    height: 755px;
+    .avatar {
+      display: inline-block;
+    }
+    .ab-me-text {
+      display: inline-block;
+      vertical-align: text-top;
+      margin-left: 100px;
+      margin-top: 100px;
+      width: 580px;
+      max-width: 100%;
+    }
+  }
+  .values {
+    .val-item {
+      width: 360px;
+    }
+  }
+  .areas-row-item {
+    display: inline-block;
+  }
+  .skills {
+    padding: 100px 110px 100px 110px;
+  }
+
+  .exp-l {
+    margin-left: 100px;
+  }
+
+  .exp-r {
+    margin-right: 100px;
+  }
+
+  .contact-me {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+@media (max-width: 1200px) {
   .main-slider {
     height: 1000px;
     background: url("../../img/main-sl.png");
